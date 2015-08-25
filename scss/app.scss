@@ -38,3 +38,40 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+.columns{
+	text-align: center;
+}
+
+.utility-nav {
+	background-color: black;
+	max-width: none;
+	width: 100%;
+	text-align: center;
+	
+	ul {
+		list-style-type: none;
+		margin-bottom: 0px;
+		
+		li{
+			display: inline-block;
+			
+			p:before {
+			    content: "";
+			    display: block;
+			    background: url("http://placehold.it/20x20") no-repeat;
+			    width: 20px;
+			    height: 20px;
+			    float: left;
+			    margin: 0 6px 0 0;
+			}
+		
+			p {
+				color: white;	
+			}
+			
+		}
+	
+	}
+	
+}
